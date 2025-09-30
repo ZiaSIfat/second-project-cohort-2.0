@@ -1,0 +1,42 @@
+@font-face{
+    font-family: aroma;
+    src: url(./Beltania.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#img-container{
+    height: 100%;
+    width: 100%;
+    background-image: url(./515266787_122151151394784379_6448701470210125744_n.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 80px;
+}
+h1{
+    color: beige;
+    font-weight: 600;
+    font-family: aroma;
+    font-size: 80px;
+
+}
+button{
+    color: beige;
+    background-color: rgb(0, 0, 62);
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: aroma;
+    font-size: 20px;
+    border: 2px solid beige;
+}
